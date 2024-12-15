@@ -4,16 +4,23 @@
 Guides you to Patch Fiddler Everywhere on Windows Automatically. 
 > Parent Repo: https://github.com/msojocs/fiddler-everywhere-enhance
 
+> [!NOTE]
+> Note that the repo is transfered from `sipsuru` to `auto-yui-patch`
+
 ## Special: You can also patch manually by yourself. Visit [This repo](https://github.com/sipsuru/fiddler-everywhere-patch-manual)
 
 ## What and How?
-This's a crack (actually a patch) for Telerik Fiddler Everywhere. It can grant you a trial that doesn't expire. The trial has every feature. 
+This's a  a patch for Telerik Fiddler Everywhere. It can grant you a trial that doesn't expire. The trial has every feature. 
 This's the guide for applying patch automatically. 
 
 ![Unlimited Trial](https://github.com/user-attachments/assets/e9c83778-27fa-456a-96e6-07bb0cd7f4ad)
 
-## Get Started.
 
+> [!NOTE]
+> Look forward for Linux Support.
+
+## Get Started.
+<!--
  > [!IMPORTANT]
  > Failing to download msojocs server for all FE versions (Because msojocs renamed `master` branch to `main`), is fixed now
 
@@ -21,20 +28,20 @@ This's the guide for applying patch automatically.
  > Failing to download Yukihana Patch for FE versions < 5.17.0 (Because file names sctill contains `yukihana` not `yui` except `Yui-Patch 1.1.3 +`), is fixed now..
 
  > [!IMPORTANT]
- > Failing to download Yui Patch for all FE versions (Because the organization and repo-name renamed from `Yukihana` `-->` `Yui`), is fixed now.
-
+ > Failing to download Yui Patch for all FE versions (Because the organization and repo-name renamed from `Yukihana` `--><!--` `Yui`), is fixed now.
+<!--
  > [!IMPORTANT]
  > Failing to download Yukihana Patch for 5.17.0 + (Because continuous release & latest release didn't contain windows patches), is fixed now. 
 
  > [!IMPORTANT]
  > Not patching 5.17.0+ when you trigger from "Custom Version - Workflow Dispatch" is Fixed now!
-
+-->
  > [!TIP]
  > You must always check if your fork is up to date so no fails. 
-
+<!--
  > [!NOTE]
  > Only for Windows!
-
+-->
  * How even this Automated Patching Works?
    - Well, this automated patch do the same that you do mannually for patching. It downloads fiddler everywhere extract it. Remove, Replace, Edit, Move files and then, the patched application is ready.
 
@@ -52,7 +59,7 @@ This's the guide for applying patch automatically.
 
   - Fork this repo.
   - Go to actions tab, Select `Latest Version - Workflow Dispatch` workflow.
-  - Trigger it with `workflow diaptch`
+  - Trigger it with `workflow dispatch`
   - After a successful trigger download artifact that named like `Fiddler-Everywhere-VX.X.X-Patched`
   - Extract it. Run it
 
